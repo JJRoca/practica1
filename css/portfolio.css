@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*--------------------------------
+    HEADER  CSS
+    -------------------------------*/
+    #menu_bar{
+        display: none;
+    }
+header{
+    background-color: rgb(15, 15, 15);
+    border-bottom: 3px solid rgba(238, 238, 238, 0.801);
+    position: fixed;
+    width: 100%;
+
+}
+.navegation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    /* background-color: red; */
+
+}
+.logo h2 a{
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.nav-links{
+    display: flex;
+  
+}
+.nav-links li a{
+    display: block;
+    padding: 20px 14px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+.nav-links li a:hover{
+
+    background-color:rgb(23, 20, 214);
+}
+
+/*-------------------------------------------------
+            Section css
+---------------------------------------------------*/
+section{
+    padding: 120px 0px;
+    background: #24292D;
+}
+.secciones{
+    background: #24292D;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.imagen>img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.contenedor .concepto h2{
+    font-size: 42px;
+    line-height: 48px;
+    color: #24CAAC; 
+}
+.concepto{
+    flex-basis: 50%;
+}
+.concepto p{
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: #fff;
+}
+.concepto h2{
+    text-transform: uppercase;
+}
+.btn {
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #24CAAC;
+    background: #00ffff;
+    color: #fff;
+    font-size: 15px;
+    
+}
+.btn:hover{
+    background: transparent;
+}
+
+/*-----------------------------------------
+           Section contenidos           
+--------------------------------------------*/
+#why-us{
+    background: #24292D;
+}
+.title{
+    color: #ffff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.title h2{
+    text-transform: uppercase;
+    font-size: 40px;
+  
+}
+.content h3{
+    font-size: 30px;
+    margin: 5px 0px;
+}
+.content p{
+    font-size: 20px;
+}
+.section-content{
+    
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.content{
+    flex-basis: 31%;
+    background: rgba(55, 66, 80, 0.281);
+    color:#fff;
+    padding: 25px 20px;
+    border: 1px solid transparent;
+
+}
+.content:hover{
+    border:1px solid #00ffff;
+}
+
+/*-------------------------------------
+               COURSE                  
+---------------------------------------*/
+.content-course{
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+    margin: 0 auto;
+    width: 80%;
+
+}
+.content-course>.img1>img{  
+    width: 100%;
+}
+.content-course>.img1{
+    border: 1px solid transparent;
+    margin:0 15px;
+}
+.content-course>.img1>h2{
+    font-size: 35px;
+    color: #fff;
+}
+.content-course>.img1:hover
+{
+    border: 1px solid #00ffff ;
+}
+
+/*----------------------------------------
+                     Contact              
+------------------------------------------*/
+
+.content-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+ .formulario form{
+    padding: 50px 40px;
+    background: #2F363E;
+    border-radius: 5px;
+}
+.formulario{
+    flex-basis: 45%;
+}
+.formulario form input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #24292D;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .3s;
+}
+.formulario form input, textarea:focus{
+    color: #fff;
+}
+.content-contact .formulario form input:last-child{
+    margin-bottom: 0;
+    background: #24CAAC;
+    border: 1px solid #24CAAC;
+    transition: .3s;
+}
+footer{
+   background: #24292D;;
+}
+footer .footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background:black;
+    padding: 25px 15px;
+    color: #fff;
+}
